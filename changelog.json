@@ -1,8 +1,171 @@
 [
     {
+        "version": "1.0.0",
+        "changes": [
+            "Initial release"
+        ]
+    },
+    {
+        "version": "1.0.1",
+        "changes": [
+            "Fixed log sending.",
+            "Updated links to api for receiving updates.",
+            "Removed revision.",
+            "Fixed process monitor."
+        ]
+    },
+    {
+        "version": "1.0.2",
+        "changes": [
+            "KeyDB updated to version 6.3.4",
+            "yt-dlp updated to version 2025.07.21",
+            "Fixed a bug in network statistics update",
+            "Archives for updating and installing lb have been removed from the control panel to reduce the size of the repository"
+        ]
+    },
+    {
+        "version": "1.0.3",
+        "changes": [
+            "Bug fixes in VOD playback and transcoding",
+            "Fixed reseller creation errors and EPGs page issues",
+            "Fixed incorrect asset paths",
+            "Refactoring and stability improvements",
+            "Removed Redis cleanup after update",
+            "Dropped PHP version switching logic",
+            "Updated documentation"
+        ]
+    },
+    {
+        "version": "1.0.4",
+        "changes": [
+            "Fix white screen when installing lb",
+            "Replace the function of sending panel logs with downloading the panel log file",
+            "Moved all JavaScript from footer.php into separate files to reduce file size and improve code clarity",
+            "Refactor EPG API handling and remove unused functions",
+            "Fixed epg handler and added log output to console",
+            "Fixed nesting of conditions to improve code readability",
+            "Fixed UI for selecting EPG channel in stream"
+        ]
+    },
+    {
+        "version": "1.1.0",
+        "changes": [
+            "Added GeoLite2 auto-update",
+            "Added FFmpeg 7.1 and FFmpeg 8.0",
+            "Introduced GitHubReleases class for update system",
+            "Added definition of `DEVELOPMENT` constants and updated permission checks",
+            "Fixed bug with adding TV series",
+            "Fixed JavaScript logic bug",
+            "Documentation updates and improvements"
+        ]
+    },
+    {
+        "version": "1.1.1",
+        "changes": [
+            "Updated FFmpeg docs and rebuilt FFmpeg 8.0 & 7.1",
+            "Added Xtream Codes API documentation",
+            "Multiple bug fixes for movies, TV series, bouquets, and API",
+            "Improved stability and documentation"
+        ]
+    },
+    {
+        "version": "1.1.2",
+        "changes": [
+            "Added missing FFmpeg libraries and removed obsolete MariaDB configs",
+            "Fixed mass movie editing",
+            "Fixed bug when $rCount < step",
+            "Fixed issue with deleting old segments",
+            "Fixed disabling of Service Status"
+        ]
+    },
+    {
+        "version": "1.1.3",
+        "changes": [
+            "Added info tab to Settings",
+            "Improved web player initialization and removed redundant code",
+            "Added logging to Certbot and fixed getCertificateInfo function",
+            "Fixed call to headerStats() and display of server statistics",
+            "Fixed errors in packages and various minor bugs",
+            "Moved JavaScript from footer to separate files for better readability",
+            "Removed obsolete code and parameters, including auto_send_logs"
+        ]
+    },
+    {
+        "version": "1.1.4",
+        "changes": [
+            "Fixed empty server order",
+            "Fixed modal windows",
+            "General issue fixes"
+        ]
+    },
+    {
+        "version": "1.2.0",
+        "changes": [
+            "Added Ubuntu 24 support",
+            "Improved backup and installation scripts",
+            "Updated documentation and migration guide",
+            "Fixed SSL, migration, and status issues"
+        ]
+    },
+    {
+        "version": "1.2.1",
+        "changes": [
+            "Added libraries and CRON to installers",
+            "Fixed search bar, exceptions, and series adding"
+        ]
+    },
+    {
+        "version": "1.2.2",
+        "changes": [
+            "Added XUI → XC_VM migration",
+            "Fixed status and lb_update issues",
+            "Reviewed core scripts and cleaned up code"
+        ]
+    },
+    {
+        "version": "1.2.3",
+        "changes": [
+            "Added proxy server support and incremental LB updates",
+            "Unified shared classes in web player",
+            "Improved error display and installer behavior"
+        ]
+    },
+    {
+        "version": "1.2.4",
+        "changes": [
+            "Added SSL certificate generation and update guide",
+            "Rewritten file deletion generator",
+            "Fixed undefined variable issues"
+        ]
+    },
+    {
+        "version": "1.2.5",
+        "changes": [
+            "Added logging and auto log sending",
+            "Support for unstable GitHub releases",
+            "Fixed database and package.php errors"
+        ]
+    },
+    {
+        "version": "1.2.7",
+        "changes": [
+            "Added multilingual support and language switching",
+            "Optimized heavy DB queries and improved core features",
+            "Added TMDB auto-import and FFmpeg updates",
+            "Fixed LB reinstalling, on-demand, and many small bugs"
+        ]
+    },
+    {
         "version": "1.3",
         "changes": [
-            "Fixed and improved redis, add llod v3, audit settings, gstreamer support, webrtc, redis syslog and monitor"
+            "Fix Redis",
+            "Added EPG Auto-Match",
+        ]
+    }
+    {
+        "version": "1.4",
+        "changes": [
+            "Fixed errors on mag/lines connections""
         ]
     }
 ]
